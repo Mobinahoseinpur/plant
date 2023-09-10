@@ -225,6 +225,7 @@ function createZoomPopup() {
 			item.setAttribute('href','/product-detail.html?id='+r.id)
 			item.classList.add('result');
 			item.textContent = r.description1;
+      // document.createElement("<br>")
 			overlay.append(item);
 		}
 	}

@@ -107,6 +107,9 @@ section {
 	width: 100%;
 	z-index: 1;
 }
+.result{
+	display: block;
+}
 section.small_pt,
 .small_pt,
 .top_footer.small_pt {
@@ -679,7 +682,7 @@ button:focus {
 	background-color: #07d765 !important;
 }
 .bg_light_green {
-	background-color: #c2edd6 !important;
+	background-color: #e8f5ee !important;
 }
 .bg_light_yellow {
 	background-color: #faeac8 !important;
@@ -2823,7 +2826,7 @@ body.active {
 	-moz-animation-timing-function: linear;
 	-o-animation-timing-function: linear;
 	animation-timing-function: linear;
-	background-color: #fff;
+	background-color: #76db78;
 }
 .circle_bg1 span:nth-child(2) {
 	-webkit-animation-delay:4.5s;
